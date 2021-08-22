@@ -78,7 +78,7 @@ cacheSolve <- function(my_matrix, ...) {
 }
 
 # just copy paste of the code for the mean and changed the word "mean" with the word "matrix", 
-# used as reference to create the function makeCacheMatrix
+# used as reference to create the function cacheSolve
 # cacheSolve2 <- function(x, ...) {
 #      ## Return a matrix that is the inverse of 'x'
 #      m <- x$get_matrix()
