@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Put comments here that give an overall description of what your functions do
 
 ## Write a short comment describing this function
 
@@ -67,7 +66,7 @@ cacheSolve <- function(my_matrix, ...) {
      # get the matrix from our object
      data <- my_matrix$get_matrix()
      
-     # calculating the inverse using matrix multiplication
+     # calculating the inverse
      my_inverse_matrix <- solve(data, ...)
      
      # set the inverse to the object
